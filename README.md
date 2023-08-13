@@ -28,15 +28,15 @@ Behavioural driven development UI automation framework is based on page factory 
 
 
 * src/main/java: includes 
-      1. Package:DataProviders inside src/main/java helps in reading configuration files to provide url, timeout, browser for test run.
-      2. Package:Enums comprise of drivertypes, context, Environment classes
-      3. Package:Managers comprise of driverManger(different driver for browser), pageObjectManager (managing pages),fileReaderManager(Config file reader)
-      4. Package:PageObjects comprise of pages(Home,restaurantList, restaurantDetail) using pagefactory model
-      5. Package:Utilities wait, scenario managing, testmanaging utlities
+    1. Package:DataProviders inside src/main/java helps in reading configuration files to provide url, timeout, browser for test run.
+    2. Package:Enums comprise of drivertypes, context, Environment classes
+    3. Package:Managers comprise of driverManger(different driver for browser), pageObjectManager (managing pages),fileReaderManager(Config   file reader)
+    4. Package:PageObjects comprise of pages(Home,restaurantList, restaurantDetail) using pagefactory model
+    5. Package:Utilities wait, scenario managing, testmanaging utlities
 
 * src/test/java: includes 
-     1.Package:Runners comprise of testrunner managed with testNG
-     2. Package:StepDefinations comprise of Hooks & trelloSteps(Code glued with feature file)
+    1.Package:Runners comprise of testrunner managed with testNG
+    2. Package:StepDefinations comprise of Hooks & trelloSteps(Code glued with feature file)
 
 * src/test/resources: includes
     1. Folder: features comprise of feature file with mentioned scenario's
@@ -126,7 +126,7 @@ Feature: Use Trello website to manage boards
       | listName |
       | Rejected     |
       | Defered  |
-        
+
     
 **NOTES**
  ***
